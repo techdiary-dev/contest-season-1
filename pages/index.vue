@@ -16,9 +16,9 @@
         <span class=" text-[#FFB95C]">আর্টিক্যাল সমূহ</span>
       </h2>
 
-      <a href="#" class="text-xl text-blue-500 underline font-boshonto"
-      >কনটেস্টের সকল আর্টিকেল</a
-      >
+      <a href="https://techdiary.dev/tags/" class="text-xl text-blue-500 underline font-boshonto">
+        কনটেস্টের সকল আর্টিকেল
+      </a>
     </div>
 
     <div class="grid gap-5 mx-auto my-10 md:grid-cols-2 lg:grid-cols-3 wrapper">
@@ -47,20 +47,20 @@ import ArticleCard from "~/components/article-card";
 
 export default {
   head: {
-    title: "নীড়",
+    title: "ডেভ আর্টিকেল কন্টেস্ট | টেকডায়েরি",
     meta: [
       {
         name: "description",
-        content: `টেকডায়েরি | বাংলার প্রোগ্রামিং নেটওয়ার্ক`
+        content: `ডেভ আর্টিকেল কন্টেস্ট | টেকডায়েরি`
       },
       {
         property: "og:title",
-        content: `টেকডায়েরি | বাংলার প্রোগ্রামিং নেটওয়ার্ক`
+        content: `ডেভ আর্টিকেল কন্টেস্ট | টেকডায়েরি`
       },
       {
         property: "og:image",
         content:
-          "https://res.cloudinary.com/techdiary-dev/image/upload/v1616454527/static-assets/ysbycrhmbjdxqirpskdl.jpg"
+          "https://res.cloudinary.com/techdiary-dev/image/upload/v1619726887/static-assets/contest/om8p13fs8jhozmikjm4y.png"
       },
       {
         property: "og:image:width",
