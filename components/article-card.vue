@@ -1,5 +1,7 @@
 <template>
-  <article class="bg-white rounded-md shadow">
+  <article
+    class="transition duration-200 bg-white rounded-md shadow hover:shadow-lg"
+  >
     <figure class="m-2 overflow-auto rounded-md">
       <img
         src="https://res.cloudinary.com/techdiary-dev/image/upload/v1619640852/techdiary-article-covers/jcqzozgi0hi9nbtmltah.png"

@@ -47,5 +47,8 @@ export default {
 
   tailwindcss: {
     cssPath: "~/assets/styles/app.scss"
+  },
+  server: {
+    host: "0.0.0.0"
   }
 };

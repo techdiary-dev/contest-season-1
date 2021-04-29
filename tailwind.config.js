@@ -19,7 +19,8 @@ module.exports = {
         fuchsia: "#C132AA"
       },
       fontFamily: {
-        boshonto: ["Boshonto"]
+        boshonto: ["Boshonto"],
+        body: ["Baloo Da 2", "cursive"]
       }
     }
   },

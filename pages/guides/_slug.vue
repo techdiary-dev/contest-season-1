@@ -1,26 +1,32 @@
 <template>
   <div>
     <header class="py-5 text-center hero">
-      <div class="inline-block col-span-1 col-start-2 space-y-8 transform">
+      <div
+        class="inline-block col-span-1 space-y-8 transition duration-200 transform md:-rotate-3"
+      >
         <h3 class="font-mono ">
-          <a href="https://techdiary.dev" class="underline">techdiary.dev</a>
+          <a href="https://techdiary.dev" class="underline ">techdiary.dev</a>
           presents
         </h3>
-        <h1 class="text-6xl font-boshonto">
+
+        <h1 class="text-3xl md:text-6xl font-boshonto">
           ডেভ আর্টিকেল
-          <span class="block text-fuchsia text-[95px]">কনটেস্ট</span>
+          <span class="block text-fuchsia md:text-[95px] text-6xl">
+            কন্টেস্ট
+          </span>
         </h1>
 
-        <h3 class="text-4xl font-boshonto">সুমিত ভাইয়ের সাথে</h3>
+        <h3 class="text-3xl font-boshonto">সুমিত ভাইয়ের সাথে</h3>
       </div>
     </header>
     <div class="mx-auto wrapper">
       <div class="grid grid-cols-12 my-10">
-        <div class="col-span-12 md:col-span-3">
+        <div class="col-span-12 mb-5 md:col-span-3">
           <static-pages-list />
         </div>
+
         <div
-          class="col-span-9 p-5 mx-auto prose prose-lg bg-white shadow max-w-none"
+          class="col-span-12 p-5 mx-auto prose prose-lg bg-white shadow lg:col-span-9 max-w-none"
         >
           <nuxt-link to="/" class="flex items-center space-x-3">
             <svg
