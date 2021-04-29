@@ -47,7 +47,7 @@ import ArticleCard from "~/components/article-card";
 
 export default {
   head: {
-    title: "নীড়",
+    title: "ডেভ আর্টিকেল কন্টেস্ট | টেকডায়েরি",
     meta: [
       {
         name: "description",
