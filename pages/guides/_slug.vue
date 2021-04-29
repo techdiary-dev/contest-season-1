@@ -1,0 +1,76 @@
+<template>
+  <div>
+    <header class="py-5 text-center hero">
+      <div class="inline-block col-span-1 col-start-2 space-y-8 transform">
+        <h3 class="font-mono ">
+          <a href="https://techdiary.dev" class="underline">techdiary.dev</a>
+          presents
+        </h3>
+        <h1 class="text-6xl font-boshonto">
+          ডেভ আর্টিকেল
+          <span class="block text-fuchsia text-[95px]">কনটেস্ট</span>
+        </h1>
+
+        <h3 class="text-4xl font-boshonto">সুমিত ভাইয়ের সাথে</h3>
+      </div>
+    </header>
+    <div class="mx-auto wrapper">
+      <div class="grid grid-cols-12 my-10">
+        <div class="col-span-12 md:col-span-3">
+          <static-pages-list />
+        </div>
+        <div
+          class="col-span-9 p-5 mx-auto prose prose-lg bg-white shadow max-w-none"
+        >
+          <nuxt-link to="/" class="flex items-center space-x-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 19l-7-7m0 0l7-7m-7 7h18"
+              />
+            </svg>
+            <span>হোম পেইজ</span>
+          </nuxt-link>
+
+          <div>
+            <h2 class="inline-block border-b-2">{{ page.title }}</h2>
+          </div>
+          <nuxt-content :document="page" />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.page?.title
+    };
+  },
+  async asyncData({ $content, params }) {
+    const page = await $content("guides", params.slug).fetch();
+    return { page };
+  }
+};
+</script>
+
+<style scoped lang="scss">
+.hero {
+  // background-image: url("~/static/images/hero.svg");
+  // background-position: left center;
+  @apply bg-no-repeat bg-left-bottom  text-white;
+
+  background-image: url("~assets/images/hero.png"),
+    linear-gradient(205.5deg, #321b50 10.82%, rgba(19, 30, 63, 0.88) 84.93%);
+}
+</style>

@@ -1,0 +1,36 @@
+@import "fonts";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #fdf9f3;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.wrapper {
+  width: 1100px;
+  margin: audio;
+}
+
+@import "hero";
+
+.prose code {
+  &::before,
+  &::after {
+    content: "";
+  }
+
+  background-color: #321b50;
+  padding: 8px 10px;
+  border-radius: 15px;
+  color: #fff;
+}
