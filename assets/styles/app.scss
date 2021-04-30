@@ -23,8 +23,6 @@
   }
 }
 
-@import "hero";
-
 .prose code {
   &::before,
   &::after {
@@ -32,7 +30,7 @@
   }
 
   background-color: #321b50;
-  padding: 8px 10px;
-  border-radius: 15px;
+  padding: 5px 7px;
+  border-radius: 5px;
   color: #fff;
 }

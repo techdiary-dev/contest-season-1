@@ -39,7 +39,7 @@
       </h2>
     </div>
     <div
-      class="p-5 mx-auto my-10 prose prose-lg bg-white shadow wrapper max-w-none"
+      class="p-5 mx-auto my-10 prose prose-lg bg-white shadow wrapper max-w-none font-body"
     >
       <nuxt-content :document="rules" />
     </div>
@@ -47,8 +47,6 @@
 </template>
 
 <script>
-import ArticleCard from "~/components/article-card";
-
 export default {
   head: {
     title: "ডেভ আর্টিকেল কন্টেস্ট | টেকডায়েরি",
@@ -77,7 +75,6 @@ export default {
       }
     ]
   },
-  components: { ArticleCard },
   async asyncData({ $content }) {
     const rules = await $content("", "welcome").fetch();
     return { rules };

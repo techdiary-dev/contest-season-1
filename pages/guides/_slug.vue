@@ -19,7 +19,7 @@
         <h3 class="text-3xl font-boshonto">সুমিত ভাইয়ের সাথে</h3>
       </div>
     </header>
-    <div class="mx-auto wrapper">
+    <div class="mx-auto wrapper font-body">
       <div class="grid grid-cols-12 my-10">
         <div class="col-span-12 mb-5 md:col-span-3">
           <static-pages-list />

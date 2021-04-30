@@ -10,20 +10,20 @@ module.exports = {
       "./pages/**/*.vue",
       "./plugins/**/*.{js,ts}",
       "./nuxt.config.{js,ts}",
-      "content/**/**.md",
-    ],
+      "content/**/**.md"
+    ]
   },
   theme: {
     extend: {
       colors: {
-        fuchsia: "#C132AA",
+        fuchsia: "#C132AA"
       },
       fontFamily: {
         boshonto: ["Boshonto", "Kohinoor Bangla"],
-        body: ["Baloo Da 2", "cursive"],
-      },
-    },
+        body: ["KohinoorBangla"]
+      }
+    }
   },
   variants: {},
-  plugins: [typography],
+  plugins: [typography]
 };
