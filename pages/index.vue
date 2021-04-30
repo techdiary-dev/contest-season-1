@@ -23,7 +23,7 @@
             <ul>
               <li>
                 <a
-                  class="no-underline"
+                  class="!no-underline"
                   href="https://www.facebook.com/hashtag/techdiary_contest"
                 >
                   #techdiary_contest
@@ -31,7 +31,7 @@
               </li>
               <li>
                 <a
-                  class="no-underline"
+                  class="!no-underline"
                   href="https://www.facebook.com/hashtag/learnwithSumit20k"
                 >
                   #learnwithSumit20k

@@ -3,6 +3,7 @@ const typography = require("@tailwindcss/typography");
 
 module.exports = {
   mode: "jit",
+  important: true,
   purge: {
     content: [
       "./components/**/*.{vue,js}",
