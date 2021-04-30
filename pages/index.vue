@@ -8,6 +8,31 @@
 
     <div class="px-4 mx-auto md:w-6/12">
       <maincard />
+
+      <div class="mt-4 prose prose-xl font-body">
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+          <div class="col-span-1 ">
+            <h3>আর্টিকেল লিখুন</h3>
+            <h3><code>contest_season_1</code></h3>
+            <h3>ট্যাগ দিয়ে</h3>
+          </div>
+          <div class="col-span-1 ">
+            <h3>ফেসবুকে শেয়ার করুন</h3>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/hashtag/techdiary">
+                  #techdiary_contest
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/hashtag/learnwithSumit20k">
+                  #learnwithSumit20k
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- <div class="mx-auto mt-20 leading-9 wrapper">
