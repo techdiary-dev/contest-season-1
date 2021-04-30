@@ -9,7 +9,9 @@
     <div class="px-4 mx-auto md:w-6/12">
       <maincard />
 
-      <div class="mt-4 prose prose-xl font-body">
+      <div
+        class="px-5 mx-auto mt-4 prose prose-xl border-2 border-dashed rounded-md font-body border-fuchsia"
+      >
         <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
           <div class="col-span-1 ">
             <h3>আর্টিকেল লিখুন</h3>
@@ -20,12 +22,18 @@
             <h3>ফেসবুকে শেয়ার করুন</h3>
             <ul>
               <li>
-                <a href="https://www.facebook.com/hashtag/techdiary">
+                <a
+                  class="no-underline"
+                  href="https://www.facebook.com/hashtag/techdiary_contest"
+                >
                   #techdiary_contest
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/hashtag/learnwithSumit20k">
+                <a
+                  class="no-underline"
+                  href="https://www.facebook.com/hashtag/learnwithSumit20k"
+                >
                   #learnwithSumit20k
                 </a>
               </li>
