@@ -7,7 +7,8 @@
       </h2>
 
       <a
-        href="https://techdiary.dev/tags/"
+        href="https://techdiary.dev/tags/contest_season_1"
+        target="_blank"
         class="text-xl text-blue-500 underline font-boshonto"
       >
         কনটেস্টের সকল আর্টিকেল
@@ -38,7 +39,7 @@ export default {
   },
   async fetch() {
     const { data: articles } = await this.$axios(
-      "https://v3-api.techdiary.dev/api/articles?tag=contest_season_1"
+      "https://v3-api.techdiary.dev/api/articles?tag=contest_season_1&limit=9"
     );
 
     this.articles = articles.data;
